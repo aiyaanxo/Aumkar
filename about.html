@@ -1,0 +1,131 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li><!--Home-->
+                    <li><a href="about.html">ପ୍ରାର୍ଥନା</a></li><!--About-->
+                    <li><a href="course.html">COURSE</a></li><!--course-->
+                    <li><a href="blog.html">BLOG</a></li><!--blog-->
+                    <li><a href="contact.html">CONTACT</a></li><!--contact-->
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>ପ୍ରାର୍ଥନା</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<!-- <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>     
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus. Donec sit amet nisl non justo malesuada fermentum. Donec eget felis dolor. Suspendisse condimentum vestibulum ex ac cursus. Nam pharetra viverra efficitur. Sed pellentesque luctus arcu, quis finibus nibh luctus mattis.</p>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section> -->
+        
+<section class="facility">
+    <h1>ଅଧ୍ୟାତ୍ମବିଦ୍ୟା ବିଦ୍ୟାନାମ୍‌</h1> <!-- Our facilities-->
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+    <div class="col">
+        <div class="testimonial-col">
+            <!-- <img src="images/user1.jpg"> -->
+            <div> 
+                <h3><p id="hymn1">Loading....</p></h3>
+                <h3>Christine Berkley</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <!-- <img src="images/user2.jpg"> -->
+            <div>
+                <h3><p id="hymn2">Loading....</p></h3>
+                <h3>David Byer</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <!-- <img src="images/user2.jpg"> -->
+            <div>
+                <h3><p id="hymn3">Loading....</p></h3>
+                <h3>David Byer</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <!-- <img src="images/user2.jpg"> -->
+            <div>
+                <h3><p id="hymn4">Loading....</p></h3>
+                <h3>David Byer</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <!-- <img src="images/user2.jpg"> -->
+            <div>
+                <h3><p id="hymn5">Loading....</p></h3>
+                <h3>David Byer</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <!-- <img src="images/user2.jpg"> -->
+            <div>
+                <h3><p id="hymn6">Loading....</p></h3>
+                <h3>David Byer</h3>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <!-- <img src="images/user2.jpg"> -->
+            <div>
+                <h3><p id="hymn7">Loading....</p></h3>
+                <h3>David Byer</h3>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>    
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+
+<script src="script.js"></script>
+    
+</body>
+</html>    
